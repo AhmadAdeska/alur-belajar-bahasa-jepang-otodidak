@@ -10,100 +10,116 @@
     body {
       font-family: 'Inter', sans-serif;
       margin: 0;
-      background-color: #f9f9f9;
-      color: #333;
+      background: linear-gradient(to bottom right, #3b4664, #181c2f);
+      color: #fff;
     }
     header {
-      background-color: #d6336c;
-      color: white;
-      padding: 2rem;
       text-align: center;
+      padding: 2rem 1rem 1rem;
     }
     h1 {
-      margin: 0;
       font-size: 2rem;
+      margin-bottom: 0.5rem;
+    }
+    p.quote {
+      font-style: italic;
+      font-size: 0.95rem;
+      color: #ddd;
+      margin: 0.3rem 0;
     }
     main {
-      padding: 2rem;
-      max-width: 800px;
+      padding: 1rem;
+      max-width: 700px;
       margin: 0 auto;
     }
     section {
-      margin-bottom: 2rem;
+      margin: 2rem 0;
     }
     h2 {
-      color: #d6336c;
+      text-align: center;
+      color: #ffcc00;
+      margin-bottom: 1rem;
     }
-    ul {
-      list-style: none;
-      padding-left: 0;
-    }
-    li {
-      margin: 0.5rem 0;
-    }
-    a {
-      color: #0077cc;
+    .link-button {
+      display: block;
+      background-color: rgba(255, 255, 255, 0.05);
+      border: 1px solid rgba(255, 255, 255, 0.1);
+      color: #fff;
+      text-align: center;
+      padding: 0.8rem;
+      margin: 0.6rem auto;
+      max-width: 400px;
+      border-radius: 30px;
       text-decoration: none;
+      transition: 0.2s ease;
     }
-    a:hover {
-      text-decoration: underline;
+    .link-button:hover {
+      background-color: rgba(255, 255, 255, 0.15);
     }
     footer {
       text-align: center;
       padding: 1rem;
-      font-size: 0.9rem;
-      color: #777;
+      font-size: 0.8rem;
+      color: #aaa;
     }
   </style>
 </head>
 <body>
   <header>
+    <img src="https://raw.githubusercontent.com/username/logo.png" alt="Logo" width="120" />
     <h1>Alur Belajar Bahasa Jepang</h1>
-    <p>Mulai dari N5 hingga mahir, semua materi dalam satu tempat!</p>
+    <p class="quote">"Mulai dari N5 hingga N1 - Belajar dengan alur yang jelas dan konsisten"</p>
+    <p class="quote">"Tidak perlu terburu-buru, tapi jangan berhenti"</p>
   </header>
 
   <main>
     <section>
-      <h2>1. Pemula (N5)</h2>
-      <ul>
-        <li><a href="https://www.tofugu.com/japanese/learn-hiragana/" target="_blank">Belajar Hiragana & Katakana</a></li>
-        <li><a href="https://jlptsensei.com/jlpt-n5-grammar-list/" target="_blank">Grammar N5 - JLPT Sensei</a></li>
-        <li><a href="https://quizlet.com/subject/jlpt-n5-vocabulary/" target="_blank">Kosakata N5 - Quizlet</a></li>
-        <li><a href="https://www3.nhk.or.jp/nhkworld/en/learnjapanese/" target="_blank">Listening NHK Easy Japanese</a></li>
-      </ul>
+      <h2>JLPT N5</h2>
+      <a class="link-button" href="#">Hiragana & Katakana - Tofugu</a>
+      <a class="link-button" href="#">Grammar N5 - JLPT Sensei</a>
+      <a class="link-button" href="#">Kosakata N5 - Quizlet</a>
+      <a class="link-button" href="#">Listening NHK Easy Japanese</a>
     </section>
 
     <section>
-      <h2>2. Menengah (N4-N3)</h2>
-      <ul>
-        <li><a href="https://jlptsensei.com/jlpt-n4-grammar-list/" target="_blank">Grammar N4</a></li>
-        <li><a href="https://jlptsensei.com/jlpt-n3-grammar-list/" target="_blank">Grammar N3</a></li>
-        <li><a href="https://www.youtube.com/@tokiniandy" target="_blank">Video Grammar - Tokini Andy</a></li>
-        <li><a href="https://www.japanesepod101.com/" target="_blank">Listening & Speaking - JapanesePod101</a></li>
-      </ul>
+      <h2>JLPT N4</h2>
+      <a class="link-button" href="#">Grammar N4 - JLPT Sensei</a>
+      <a class="link-button" href="#">Kosakata N4 - Quizlet</a>
+      <a class="link-button" href="#">Video Penjelasan N4 - Tokini Andy</a>
     </section>
 
     <section>
-      <h2>3. Mahir (N2-N1)</h2>
-      <ul>
-        <li><a href="https://jlptsensei.com/jlpt-n2-grammar-list/" target="_blank">Grammar N2</a></li>
-        <li><a href="https://jlptsensei.com/jlpt-n1-grammar-list/" target="_blank">Grammar N1</a></li>
-        <li><a href="https://www.japanesetest4you.com/" target="_blank">Latihan Soal JLPT Lengkap</a></li>
-      </ul>
+      <h2>JLPT N3</h2>
+      <a class="link-button" href="#">Grammar N3 - JLPT Sensei</a>
+      <a class="link-button" href="#">Soal Latihan JLPT N3</a>
+      <a class="link-button" href="#">Video Grammar - Tokini Andy</a>
+      <a class="link-button" href="#">Latihan Listening N3 - Pod101</a>
     </section>
 
     <section>
-      <h2>4. Rekomendasi Lain</h2>
-      <ul>
-        <li><a href="https://bunpro.jp/" target="_blank">Bunpro (Latihan Grammar Interaktif)</a></li>
-        <li><a href="https://wanikani.com/" target="_blank">Wanikani (Belajar Kanji Cepat)</a></li>
-        <li><a href="https://www.youtube.com/@CureDolly" target="_blank">Cure Dolly (Penjelasan Grammar Unik)</a></li>
-      </ul>
+      <h2>JLPT N2</h2>
+      <a class="link-button" href="#">Grammar N2 - JLPT Sensei</a>
+      <a class="link-button" href="#">Soal Latihan JLPT N2</a>
+      <a class="link-button" href="#">Latihan Kanji N2 - WaniKani</a>
+    </section>
+
+    <section>
+      <h2>JLPT N1</h2>
+      <a class="link-button" href="#">Grammar N1 - JLPT Sensei</a>
+      <a class="link-button" href="#">Soal Latihan JLPT N1 - Test4You</a>
+      <a class="link-button" href="#">Video Grammar N1 - Cure Dolly</a>
+    </section>
+
+    <section>
+      <h2>Alat & Website Tambahan</h2>
+      <a class="link-button" href="#">Bunpro (Latihan Grammar Interaktif)</a>
+      <a class="link-button" href="#">Wanikani (Belajar Kanji Cepat)</a>
+      <a class="link-button" href="#">JapanesePod101 (Listening & Speaking)</a>
     </section>
   </main>
 
   <footer>
-    &copy; 2025 Alur Belajar Jepang - Dibuat dengan semangat untuk bantu sesama pembelajar ❤
+    &copy; 2025 Alur Belajar Jepang - Dibuat untuk bantu sesama pembelajar ❤
   </footer>
 </body>
 </html>
